@@ -1,0 +1,224 @@
+{
+  "CODEINE": {
+    "PM": {
+      "action": "Avoid codeine — use alternative opioid",
+      "alternatives": ["Morphine", "Tramadol", "Oxycodone"],
+      "urgency": "immediate",
+      "monitoring": "If codeine is used despite genetic findings, monitor for reduced efficacy",
+      "references": ["CPIC Codeine Guideline 2021"]
+    },
+    "IM": {
+      "action": "Reduced efficacy — use higher dose or alternative",
+      "alternatives": ["Morphine", "Tramadol", "Oxycodone"],
+      "urgency": "high",
+      "monitoring": "Monitor for adequate pain control; may require dose escalation",
+      "references": ["CPIC Codeine Guideline 2021"]
+    },
+    "NM": {
+      "action": "Use standard dosing and monitoring regimen",
+      "alternatives": [],
+      "urgency": "normal",
+      "monitoring": "Standard pain assessment and side effect monitoring",
+      "references": ["CPIC Codeine Guideline 2021"]
+    },
+    "RM": {
+      "action": "Increased toxicity risk — use alternative or reduced dose",
+      "alternatives": ["Tramadol", "Morphine (lower dose)", "Non-opioid alternatives"],
+      "urgency": "high",
+      "monitoring": "Close monitoring for opioid-related side effects; consider lower doses",
+      "references": ["CPIC Codeine Guideline 2021"]
+    },
+    "URM": {
+      "action": "Avoid codeine — high toxicity risk — use alternative",
+      "alternatives": ["Tramadol", "Morphine (much lower dose)", "Non-opioid alternatives"],
+      "urgency": "immediate",
+      "monitoring": "If codeine is used, monitor closely for toxicity",
+      "references": ["CPIC Codeine Guideline 2021"]
+    }
+  },
+  "WARFARIN": {
+    "PM": {
+      "action": "Use significantly reduced dose; may require 10-20% of standard dose",
+      "alternatives": ["Consider direct oral anticoagulants (DOACs): dabigatran, rivaroxaban, apixaban"],
+      "urgency": "immediate",
+      "monitoring": "Check INR within 3 days of initiation; then every 2-3 days; adjust dose based on INR response",
+      "references": ["CPIC Warfarin-CYP2C9-VKORC1 Guideline 2017"]
+    },
+    "IM": {
+      "action": "Use reduced dose; typically 30-50% of standard dose initially",
+      "alternatives": ["Consider DOACs if suitable"],
+      "urgency": "high",
+      "monitoring": "Check INR within 3 days; then 1-2 times per week until stable",
+      "references": ["CPIC Warfarin-CYP2C9-VKORC1 Guideline 2017"]
+    },
+    "NM": {
+      "action": "Use standard dosing (5 mg daily); adjust based on INR response",
+      "alternatives": [],
+      "urgency": "normal",
+      "monitoring": "Check INR on Day 3-4, then every 2-4 weeks when stable (INR 2-3)",
+      "references": ["CPIC Warfarin-CYP2C9-VKORC1 Guideline 2017"]
+    },
+    "RM": {
+      "action": "May require higher dose; typically 1.5-2x standard dose",
+      "alternatives": [],
+      "urgency": "normal",
+      "monitoring": "Standard INR monitoring schedule; may need higher maintenance doses",
+      "references": ["CPIC Warfarin-CYP2C9-VKORC1 Guideline 2017"]
+    },
+    "URM": {
+      "action": "May require substantially higher dose (often 2-3x standard)",
+      "alternatives": ["Consider higher-intensity anticoagulation if clinically needed"],
+      "urgency": "normal",
+      "monitoring": "Standard INR monitoring; ensure adequate anticoagulation achieved",
+      "references": ["CPIC Warfarin-CYP2C9-VKORC1 Guideline 2017"]
+    }
+  },
+  "CLOPIDOGREL": {
+    "PM": {
+      "action": "Avoid clopidogrel; use alternative P2Y12 inhibitor",
+      "alternatives": ["Prasugrel (5-10 mg daily)", "Ticagrelor (60 mg daily)", "Cilostazol"],
+      "urgency": "immediate",
+      "monitoring": "If clopidogrel is used despite genetic findings, monitor for recurrent stent thrombosis",
+      "references": ["CPIC Clopidogrel-CYP2C19 Guideline 2017", "FDA Black Box Warning"]
+    },
+    "IM": {
+      "action": "Consider alternative P2Y12 inhibitor or high-dose clopidogrel with additional monitoring",
+      "alternatives": ["Prasugrel (5-10 mg daily)", "Ticagrelor (60 mg daily)"],
+      "urgency": "high",
+      "monitoring": "If clopidogrel used: assess for stent thrombosis, recurrent events; consider platelet function testing",
+      "references": ["CPIC Clopidogrel-CYP2C19 Guideline 2017"]
+    },
+    "NM": {
+      "action": "Use standard dose (300-600 mg loading dose, then 75 mg daily)",
+      "alternatives": [],
+      "urgency": "normal",
+      "monitoring": "Standard cardiovascular event monitoring",
+      "references": ["CPIC Clopidogrel-CYP2C19 Guideline 2017"]
+    },
+    "RM": {
+      "action": "Standard dose acceptable; may assess for excessive bleeding risk",
+      "alternatives": [],
+      "urgency": "normal",
+      "monitoring": "Monitor for excessive bleeding; may reduce dose if high bleeding risk",
+      "references": ["CPIC Clopidogrel-CYP2C19 Guideline 2017"]
+    },
+    "URM": {
+      "action": "Standard dose acceptable; monitor for increased bleeding",
+      "alternatives": ["Consider dose reduction if significant bleeding occurs"],
+      "urgency": "normal",
+      "monitoring": "Assess for increased bleeding complications",
+      "references": ["CPIC Clopidogrel-CYP2C19 Guideline 2017"]
+    }
+  },
+  "SIMVASTATIN": {
+    "PM": {
+      "action": "Avoid simvastatin; use alternative statin",
+      "alternatives": ["Rosuvastatin", "Pravastatin", "Fluvastatin", "Pitavastatin"],
+      "urgency": "high",
+      "monitoring": "Monitor CK if simvastatin is used despite genetic findings",
+      "references": ["CPIC Simvastatin-SLCO1B1 Guideline 2012"]
+    },
+    "IM": {
+      "action": "Use reduced dose (10-20 mg daily maximum) or alternative statin",
+      "alternatives": ["Rosuvastatin", "Pravastatin", "Fluvastatin"],
+      "urgency": "high",
+      "monitoring": "Monitor for myopathy symptoms; check CK if symptoms develop",
+      "references": ["CPIC Simvastatin-SLCO1B1 Guideline 2012"]
+    },
+    "NM": {
+      "action": "Use standard dosing (20-40 mg daily)",
+      "alternatives": [],
+      "urgency": "normal",
+      "monitoring": "Standard statin monitoring; baseline and periodic CK if symptoms develop",
+      "references": ["CPIC Simvastatin-SLCO1B1 Guideline 2012"]
+    },
+    "RM": {
+      "action": "Standard dosing; may require higher doses for LDL goals",
+      "alternatives": [],
+      "urgency": "normal",
+      "monitoring": "Monitor LDL achievement; standard safety monitoring",
+      "references": ["CPIC Simvastatin-SLCO1B1 Guideline 2012"]
+    },
+    "URM": {
+      "action": "Standard dosing; may require higher doses for LDL goals",
+      "alternatives": [],
+      "urgency": "normal",
+      "monitoring": "Ensure adequate LDL reduction at assigned dose",
+      "references": ["CPIC Simvastatin-SLCO1B1 Guideline 2012"]
+    }
+  },
+  "AZATHIOPRINE": {
+    "PM": {
+      "action": "Avoid azathioprine; use alternative immunosuppressant",
+      "alternatives": ["Mycophenolate mofetil (MMF)", "Calcineurin inhibitors (tacrolimus, cyclosporine)", "Corticosteroids"],
+      "urgency": "immediate",
+      "monitoring": "Do not use azathioprine; severe bone marrow failure will occur",
+      "references": ["CPIC Azathioprine-TPMT Guideline 2022"]
+    },
+    "IM": {
+      "action": "Use significantly reduced dose (50% or less of standard dose)",
+      "alternatives": ["Mycophenolate mofetil", "Calcineurin inhibitors"],
+      "urgency": "high",
+      "monitoring": "Baseline CBC; monitor CBC at 2 weeks, monthly for 3 months, then every 3 months minimum",
+      "references": ["CPIC Azathioprine-TPMT Guideline 2022"]
+    },
+    "NM": {
+      "action": "Use standard dose; detailed CBC monitoring recommended",
+      "alternatives": [],
+      "urgency": "normal",
+      "monitoring": "Baseline CBC; then monthly for 3 months, then every 3 months",
+      "references": ["CPIC Azathioprine-TPMT Guideline 2022"]
+    },
+    "RM": {
+      "action": "Standard to higher dose may be needed for therapeutic effect",
+      "alternatives": [],
+      "urgency": "normal",
+      "monitoring": "Standard CBC monitoring; assess for adequate immunosuppression",
+      "references": ["CPIC Azathioprine-TPMT Guideline 2022"]
+    },
+    "URM": {
+      "action": "Standard dose; may require higher doses if needed therapeutically",
+      "alternatives": [],
+      "urgency": "normal",
+      "monitoring": "Standard monitoring; ensure adequate immunosuppressive response",
+      "references": ["CPIC Azathioprine-TPMT Guideline 2022"]
+    }
+  },
+  "FLUOROURACIL": {
+    "PM": {
+      "action": "Avoid 5-FU; use alternative chemotherapy regimen",
+      "alternatives": ["Capecitabine (caution—also requires DPYD)", "Taxanes", "Alternative cancer-specific regimens"],
+      "urgency": "immediate",
+      "monitoring": "Do not use 5-FU; severe, potentially fatal toxicity will occur",
+      "references": ["CPIC Fluorouracil-DPYD Guideline 2018", "FDA Black Box Warning"]
+    },
+    "IM": {
+      "action": "Use significantly reduced dose (25-50% of standard dose)",
+      "alternatives": ["Capecitabine (caution—also DPYD-dependent)", "Taxanes", "Alternative regimens"],
+      "urgency": "immediate",
+      "monitoring": "Baseline CBC; CBC monitoring days 5, 10, 14 after each cycle; monitor for toxicity daily during cycle",
+      "references": ["CPIC Fluorouracil-DPYD Guideline 2018"]
+    },
+    "NM": {
+      "action": "Use standard dose with standard monitoring",
+      "alternatives": [],
+      "urgency": "normal",
+      "monitoring": "Standard CBC and clinical monitoring per protocol",
+      "references": ["CPIC Fluorouracil-DPYD Guideline 2018"]
+    },
+    "RM": {
+      "action": "Use standard or higher dose if needed for therapeutic goal",
+      "alternatives": [],
+      "urgency": "normal",
+      "monitoring": "Standard monitoring; ensure adequate chemotherapy response",
+      "references": ["CPIC Fluorouracil-DPYD Guideline 2018"]
+    },
+    "URM": {
+      "action": "Standard dose; may require higher doses if needed for therapeutic response",
+      "alternatives": [],
+      "urgency": "normal",
+      "monitoring": "Standard monitoring; ensure adequate drug exposure for cancer control",
+      "references": ["CPIC Fluorouracil-DPYD Guideline 2018"]
+    }
+  }
+}

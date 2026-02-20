@@ -1,0 +1,194 @@
+{
+  "CODEINE": {
+    "PM": {
+      "summary": "Your CYP2D6 activity is severely diminished, making codeine ineffective and potentially dangerous. Codeine requires enzymatic conversion (O-demethylation) to morphine, which is blocked in poor metabolizers.",
+      "mechanism": "CYP2D6 poor metabolizers cannot efficiently convert codeine (prodrug) to morphine (active metabolite). This results in inadequate analgesia and potential toxicity from accumulated codeine and toxic metabolites.",
+      "risk_rationale": "Poor metabolizers experience reduced efficacy while accumulating parent drug, increasing overdose and adverse event risk. CPIC strongly recommends avoiding codeine entirely.",
+      "patient_friendly": "Your genes mean codeine won't work well for pain relief, and it could build up to dangerous levels in your body. Your doctor should prescribe a different pain medication like morphine or tramadol instead."
+    },
+    "IM": {
+      "summary": "Your CYP2D6 activity is reduced but not absent. Codeine will be less effective than expected, and side effects are more likely at standard doses.",
+      "mechanism": "Intermediate metabolizers convert codeine to morphine at 50-75% of normal capacity. This partially reduces analgesic effect while slightly increasing risk of accumulation.",
+      "risk_rationale": "IM patients may experience inadequate pain relief and increased side effects. Dose adjustment is needed, and alternative medications may be preferable.",
+      "patient_friendly": "Your genes mean codeine won't work as well as for most people, and you might have more side effects. Your doctor may need to adjust your dose or try a different pain medication."
+    },
+    "NM": {
+      "summary": "Your CYP2D6 activity is normal. Codeine should be metabolized normally to morphine, providing typical analgesic response. Standard dosing is appropriate.",
+      "mechanism": "Normal metabolizers efficiently convert codeine to morphine via CYP2D6. This maintains therapeutic morphine levels and provides expected analgesia.",
+      "risk_rationale": "Normal metabolizers with standard dosing typically experience appropriate pain relief without elevated toxicity risk.",
+      "patient_friendly": "Your genes are typical for processing codeine normally. Standard doses should work well for pain relief. Follow your doctor's dosing instructions."
+    },
+    "RM": {
+      "summary": "Your CYP2D6 activity is increased. You metabolize codeine faster to morphine, which may result in faster pain relief but requires monitoring for overdose risk.",
+      "mechanism": "Rapid metabolizers convert codeine to morphine more quickly than average. This produces higher morphine levels and faster onset but increases toxicity risk.",
+      "risk_rationale": "RM patients generate higher morphine concentrations and may experience side effects at standard doses. CPIC recommends using alternative analgesics or close monitoring.",
+      "patient_friendly": "Your genes make you process codeine very quickly into morphine. You might feel effects sooner but are at higher risk of overdose. Your doctor should consider other pain medications or monitor you closely."
+    },
+    "URM": {
+      "summary": "Your CYP2D6 activity is very high. You metabolize codeine extremely efficiently, producing significant morphine levels that create substantial overdose and toxicity risk at standard doses.",
+      "mechanism": "Ultra-rapid metabolizers convert codeine to morphine at 2-3x normal rates. This produces toxic morphine concentrations even at low-to-moderate codeine doses.",
+      "risk_rationale": "URM patients are at serious risk of morphine toxicity (respiratory depression, excessive sedation, death) at standard codeine doses. CPIC strongly recommends alternative analgesics.",
+      "patient_friendly": "Your genes make you process codeine exceptionally fast, creating dangerous levels of morphine. Codeine is not safe for you. Your doctor should prescribe a different pain medication."
+    }
+  },
+  "WARFARIN": {
+    "PM": {
+      "summary": "Your CYP2C9 function is severely reduced. You metabolize warfarin very slowly, causing it to accumulate to toxic levels quickly. Extreme dose reduction and intensive monitoring are essential.",
+      "mechanism": "CYP2C9 poor metabolizers cannot adequately metabolize warfarin (S-enantiomer). The drug accumulates rapidly, increasing bleeding risk dramatically. VKORC1 genotype adds additional complexity.",
+      "risk_rationale": "PM patients achieve high INR at very low doses and require specialized dosing protocols. Bleeding complications (intracranial hemorrhage, GI bleeding) occur at much lower doses than expected.",
+      "patient_friendly": "Your genes mean your body processes warfarin very slowly, so it builds up to dangerous levels quickly. You'll need much lower doses and very frequent blood tests to stay safe."
+    },
+    "IM": {
+      "summary": "Your CYP2C9 activity is reduced. You metabolize warfarin slower than average, requiring lower-than-standard doses and careful INR monitoring.",
+      "mechanism": "Intermediate metabolizers have 50-75% normal CYP2C9 capability. Warfarin accumulates at a moderate rate, requiring dose reduction and frequent monitoring.",
+      "risk_rationale": "IM patients are at higher bleeding risk at standard doses. Dose adjustment based on pharmacogenomic guidelines reduces adverse events significantly.",
+      "patient_friendly": "Your genes mean you process warfarin more slowly than most people. You'll likely need a lower dose and careful monitoring with regular blood tests."
+    },
+    "NM": {
+      "summary": "Your CYP2C9 function is normal. Standard warfarin dosing guidelines apply, though VKORC1 and other factors still influence dose requirements.",
+      "mechanism": "Normal metabolizers have typical warfarin metabolism via CYP2C9. Dose adjustment based on INR response and standard pharmacokinetics.",
+      "risk_rationale": "Normal metabolizers with appropriate INR monitoring typically maintain therapeutic benefit with acceptable bleeding risk.",
+      "patient_friendly": "Your genes show normal warfarin metabolism. Your doctor will adjust your dose based on blood tests (INR) to find the right amount for you."
+    },
+    "RM": {
+      "summary": "Your CYP2C9 activity is increased. You metabolize warfarin faster than average, potentially requiring higher-than-standard doses to achieve therapeutic INR levels.",
+      "mechanism": "Rapid metabolizers have increased CYP2C9 activity. Warfarin is cleared faster, requiring higher maintenance doses to maintain therapeutic anticoagulation.",
+      "risk_rationale": "RM patients may require 1.5-2x normal doses. Inadequate dosing leads to treatment failure and clot/stroke risk.",
+      "patient_friendly": "Your genes make you process warfarin very quickly, so you might need a higher dose than most people to get the right level of blood thinning."
+    },
+    "URM": {
+      "summary": "Your CYP2C9 function is very high. You metabolize warfarin extremely rapidly, likely requiring significantly higher doses—sometimes 2-3x standard—to achieve therapeutic INR.",
+      "mechanism": "Ultra-rapid metabolizers have substantially elevated CYP2C9 activity. Warfarin is cleared at 2-3x normal rate, making standard dosing inadequate.",
+      "risk_rationale": "URM patients require substantial dose increases to prevent clot/stroke. Inadequate dosing with standard protocols leads to treatment failure.",
+      "patient_friendly": "Your genes make you break down warfarin extremely fast, so you'll likely need a much higher dose to get the right blood-thinning effect. Frequent monitoring is very important."
+    }
+  },
+  "CLOPIDOGREL": {
+    "PM": {
+      "summary": "Your CYP2C19 function is severely impaired. You cannot adequately activate clopidogrel to its active metabolite, resulting in markedly reduced antiplatelet effect and dramatically increased cardiovascular event risk.",
+      "mechanism": "Clopidogrel is a prodrug requiring CYP2C19-mediated activation. Poor metabolizers cannot form adequate active metabolite, leaving the drug inactive and platelets unprotected.",
+      "risk_rationale": "PM patients treated with standard clopidogrel have stent thrombosis risk exceeding 25% and MI risk 2-3x higher than normal metabolizers. CPIC recommends alternative P2Y12 inhibitors (prasugrel, ticagrelor).",
+      "patient_friendly": "Your genes mean clopidogrel won't work to protect your heart and blood vessels properly. Your doctor should prescribe a different blood thinner that doesn't depend on your genes, like prasugrel or ticagrelor."
+    },
+    "IM": {
+      "summary": "Your CYP2C19 activity is reduced. You activate clopidogrel at 50-75% of normal capacity, resulting in decreased antiplatelet effect and increased cardiovascular event risk compared to normal metabolizers.",
+      "mechanism": "Intermediate metabolizers have reduced CYP2C19 activity. Clopidogrel activation is diminished, leading to lower active metabolite levels and suboptimal platelet inhibition.",
+      "risk_rationale": "IM patients have 1.5-2x higher risk of cardiovascular events compared to normal metabolizers. CPIC recommends considering alternative P2Y12 inhibitors or high-dose clopidogrel with close follow-up.",
+      "patient_friendly": "Your genes mean clopidogrel works less effectively for you. Your doctor might use a higher dose, more frequent monitoring, or a different blood thinner."
+    },
+    "NM": {
+      "summary": "Your CYP2C19 function is normal. Clopidogrel is adequately activated to its antiplatelet active metabolite. Standard dosing and monitoring protocols apply.",
+      "mechanism": "Normal metabolizers have typical CYP2C19 activity and efficiently activate clopidogrel to its active thiol metabolite.",
+      "risk_rationale": "Normal metabolizers with appropriate dosing and adherence achieve expected antiplatelet benefit with acceptable cardiovascular event risk.",
+      "patient_friendly": "Your genes show normal processing of clopidogrel. Standard doses will protect your heart and blood vessels as expected."
+    },
+    "RM": {
+      "summary": "Your CYP2C19 activity is increased. You produce higher levels of active clopidogrel metabolite, potentially resulting in increased bleeding risk with standard dosing.",
+      "mechanism": "Rapid metabolizers have enhanced CYP2C19 activity, producing higher active metabolite concentrations that lead to increased antiplatelet effect.",
+      "risk_rationale": "RM patients have increased bleeding risk with standard dosing. Lower doses or alternative agents may be considered.",
+      "patient_friendly": "Your genes make you activate clopidogrel very effectively. You might be at higher risk for bleeding with standard doses, so your doctor may adjust your dose or choose an alternative."
+    },
+    "URM": {
+      "summary": "Your CYP2C19 function is very high. You produce excessive active clopidogrel metabolite, substantially increasing bleeding risk even at standard doses.",
+      "mechanism": "Ultra-rapid metabolizers have very high CYP2C19 activity, driving rapid conversion to active metabolite and producing supra-therapeutic antiplatelet effect.",
+      "risk_rationale": "URM patients are at significant increased bleeding risk with standard clopidogrel dosing. Alternative P2Y12 inhibitors are strongly recommended.",
+      "patient_friendly": "Your genes process clopidogrel much too efficiently, creating high bleeding risk. Your doctor should choose a different blood thinner like prasugrel or ticagrelor instead."
+    }
+  },
+  "SIMVASTATIN": {
+    "PM": {
+      "summary": "Your SLCO1B1 activity is severely reduced. Simvastatin accumulates to high levels, substantially increasing myopathy and rhabdomyolysis risk even at low doses.",
+      "mechanism": "SLCO1B1 poor metabolizers cannot adequately transport simvastatin into hepatocytes for metabolism. The drug accumulates systemically, increasing muscle toxicity risk.",
+      "risk_rationale": "PM patients have markedly increased myopathy risk (muscle pain, weakness) and rhabdomyolysis risk at standard doses. CPIC recommends alternative statins.",
+      "patient_friendly": "Your genes mean simvastatin builds up to dangerous levels in your body, increasing risk of serious muscle damage. Your doctor should use a different statin like rosuvastatin or pravastatin that relies on different metabolic pathways."
+    },
+    "IM": {
+      "summary": "Your SLCO1B1 activity is reduced. Simvastatin exposure is increased, elevating myopathy risk above normal at standard doses.",
+      "mechanism": "Intermediate metabolizers have 50-75% normal SLCO1B1 transporter function. Simvastatin accumulates at moderate levels.",
+      "risk_rationale": "IM patients have 2-4x increased myopathy risk with standard dosing. Dose reduction or alternative statin selection is recommended.",
+      "patient_friendly": "Your genes affect how your body handles simvastatin, increasing risk of muscle problems. Your doctor may suggest a lower dose or a different statin."
+    },
+    "NM": {
+      "summary": "Your SLCO1B1 function is normal. Simvastatin pharmacokinetics are typical, and standard dosing is appropriate with normal myopathy risk.",
+      "mechanism": "Normal metabolizers have normal SLCO1B1-mediated hepatic uptake and subsequent metabolism of simvastatin.",
+      "risk_rationale": "Normal metabolizers achieve expected lipid reduction with standard myopathy risk profiles.",
+      "patient_friendly": "Your genes show normal processing of simvastatin. Standard doses should work well for managing your cholesterol."
+    },
+    "RM": {
+      "summary": "Your SLCO1B1 activity is increased. Simvastatin is cleared more efficiently, requiring potentially higher doses to achieve lipid reduction targets.",
+      "mechanism": "Rapid metabolizers have enhanced SLCO1B1 transporter activity. Simvastatin is rapidly taken up and metabolized, reducing systemic exposure.",
+      "risk_rationale": "RM patients may require higher doses. Standard dosing may be subtherapeutic for achieving LDL goals.",
+      "patient_friendly": "Your genes make you clear simvastatin quickly. Your doctor might need to prescribe a higher dose to get the cholesterol-lowering effect you need."
+    },
+    "URM": {
+      "summary": "Your SLCO1B1 function is very high. Simvastatin is rapidly cleared, likely requiring substantially higher doses—if used at all—to achieve lipid reduction targets.",
+      "mechanism": "Ultra-rapid metabolizers have very high SLCO1B1 activity. Simvastatin is rapidly cleared, dramatically reducing systemic and hepatic exposure.",
+      "risk_rationale": "URM patients have very low systemic simvastatin exposure even at standard doses, making therapy ineffective. Alternative statins are often preferred.",
+      "patient_friendly": "Your genes process simvastatin so quickly that standard doses won't work well. Your doctor may need to use a much higher dose or choose a different statin like rosuvastatin."
+    }
+  },
+  "AZATHIOPRINE": {
+    "PM": {
+      "summary": "Your TPMT function is completely deficient. You cannot metabolize azathioprine, causing massive drug accumulation and severe, life-threatening toxicity. Azathioprine is contraindicated.",
+      "mechanism": "TPMT poor metabolizers lack functional enzyme. Azathioprine and its metabolite 6-TG accumulate to extremely high levels, causing severe bone marrow suppression and toxicity.",
+      "risk_rationale": "PM patients experience acute severe bone marrow failure (anemia, neutropenia, thrombocytopenia) and serious infections within days of starting therapy. Therapy is contraindicated.",
+      "patient_friendly": "Your genes mean you cannot safely take azathioprine—it will accumulate to poisonous levels and damage your blood cells severely. Your doctor must use a completely different medication."
+    },
+    "IM": {
+      "summary": "Your TPMT activity is reduced. You accumulate azathioprine and toxic metabolites at higher-than-normal levels, significantly increasing bone marrow suppression and infection risk.",
+      "mechanism": "Intermediate metabolizers have 30-50% normal TPMT activity. Azathioprine metabolites accumulate to moderately elevated levels.",
+      "risk_rationale": "IM patients have 3-5x increased toxicity risk. CPIC recommends dose reduction (50% or less) and close hematologic monitoring.",
+      "patient_friendly": "Your genes mean you're very sensitive to azathioprine. Your doctor will need to use a much lower dose and do frequent blood tests to watch for damage to your blood cell counts."
+    },
+    "NM": {
+      "summary": "Your TPMT function is normal. Standard azathioprine dosing applies. Standard monitoring intervals are appropriate.",
+      "mechanism": "Normal metabolizers have typical TPMT activity and process azathioprine at expected rates.",
+      "risk_rationale": "Normal metabolizers on standard dosing with appropriate monitoring achieve therapeutic benefit with acceptable toxicity rates.",
+      "patient_friendly": "Your genes show normal processing of azathioprine. Standard doses with regular blood monitoring should be safe for you."
+    },
+    "RM": {
+      "summary": "Your TPMT activity is increased. You rapidly metabolize azathioprine, potentially requiring higher doses to achieve therapeutic effect.",
+      "mechanism": "Rapid metabolizers have elevated TPMT activity. Azathioprine is rapidly metabolized to inactive forms.",
+      "risk_rationale": "RM patients may require dose increases (1.5-2x standard) to achieve therapeutic benefit. Toxicity risk is not increased.",
+      "patient_friendly": "Your genes make you process azathioprine very quickly. You might need a higher dose to get the full therapeutic benefit."
+    },
+    "URM": {
+      "summary": "Your TPMT function is very high. You rapidly metabolize azathioprine to inactive forms, requiring substantially higher doses—if therapy is used—to achieve immunosuppressive effect.",
+      "mechanism": "Ultra-rapid metabolizers have very high TPMT activity. Azathioprine is rapidly converted to inactive metabolites.",
+      "risk_rationale": "URM patients have reduced drug exposure. Higher doses may be needed, or alternative agents should be considered.",
+      "patient_friendly": "Your genes process azathioprine very efficiently, making it less effective at standard doses. Your doctor may need higher doses or consider a different immunosuppressive medication."
+    }
+  },
+  "FLUOROURACIL": {
+    "PM": {
+      "summary": "Your DPYD function is completely deficient. You cannot safely metabolize 5-FU, causing severe, potentially fatal toxicity within days of standard dosing. 5-FU is contraindicated.",
+      "mechanism": "DPYD poor metabolizers lack functional enzyme. 5-FU accumulates to extremely high levels, causing severe bone marrow suppression, gastrointestinal toxicity, and death.",
+      "risk_rationale": "PM patients develop life-threatening toxicity (complete bone marrow failure, necrotizing enterocolitis, death) with any dose. Therapy is contraindicated.",
+      "patient_friendly": "Your genes mean you cannot safely take 5-FU (Fluorouracil) chemotherapy—it will build up to deadly levels in your body. Your doctor must use a completely different cancer treatment."
+    },
+    "IM": {
+      "summary": "Your DPYD activity is reduced. You accumulate 5-FU and toxic metabolites at higher levels, greatly increasing risk of severe bone marrow suppression, diarrhea, and mucositis.",
+      "mechanism": "Intermediate metabolizers have 30-50% normal DPYD activity. 5-FU and active metabolites accumulate.",
+      "risk_rationale": "IM patients have dramatically increased severe toxicity risk (Grade 3-4 bone marrow suppression, diarrhea). CPIC recommends 25-50% dose reduction with close monitoring.",
+      "patient_friendly": "Your genes mean 5-FU chemotherapy is very dangerous for you at standard doses. Your doctor will need to use a much lower dose and watch closely for severe side effects."
+    },
+    "NM": {
+      "summary": "Your DPYD function is normal. Standard 5-FU dosing and monitoring protocols apply.",
+      "mechanism": "Normal metabolizers have typical DPYD activity. 5-FU is metabolized at expected rates.",
+      "risk_rationale": "Normal metabolizers achieve therapeutic benefit with standard monitoring and expected toxicity profiles.",
+      "patient_friendly": "Your genes show normal processing of 5-FU chemotherapy. Standard doses with close medical monitoring should be appropriate for you."
+    },
+    "RM": {
+      "summary": "Your DPYD activity is increased. You rapidly metabolize 5-FU to inactive forms, potentially requiring higher doses to achieve therapeutic anticancer effect.",
+      "mechanism": "Rapid metabolizers have elevated DPYD activity. 5-FU is rapidly converted to inactive metabolites.",
+      "risk_rationale": "RM patients may require dose increases to maintain therapeutic exposure. Toxicity risk is not increased.",
+      "patient_friendly": "Your genes make you break down 5-FU very quickly. You might need higher doses of chemotherapy to get the cancer-fighting benefit."
+    },
+    "URM": {
+      "summary": "Your DPYD function is very high. You rapidly metabolize 5-FU to inactive metabolites, requiring substantially higher doses to achieve therapeutic drug exposure for adequate cancer treatment.",
+      "mechanism": "Ultra-rapid metabolizers have very high DPYD activity. 5-FU is rapidly cleared to inactive forms.",
+      "risk_rationale": "URM patients have reduced drug exposure at standard doses. Higher doses are often needed for therapeutic benefit, though toxicity risk is not proportionally increased.",
+      "patient_friendly": "Your genes process 5-FU chemotherapy very quickly, making it less effective at standard doses. Your doctor may need to increase your doses for better cancer treatment."
+    }
+  }
+}
